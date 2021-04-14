@@ -1,6 +1,6 @@
 {
   "name": "react-native-one-shot",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "description": "smartconfig in react-native platform create by create-react-native-library scaffold",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -44,7 +44,7 @@
   },
   "homepage": "http://www.deepcode.site#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "http://192.168.1.198:4873/"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^11.0.0",

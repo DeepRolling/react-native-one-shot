@@ -14,6 +14,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => "http://www.deepcode.site.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,mm}"
+  s.vendored_libraries = 'ios/libs/libWMOneShotConfig2.0.a' #表示依赖第三方/自己的静态库（比如libWeChatSDK.a）
+
 
   s.dependency "React-Core"
 end

@@ -1,7 +1,8 @@
 import { NativeModules } from 'react-native';
 
 type OneShotType = {
-  multiply(a: number, b: number): Promise<number>;
+  startConfig(ssid: String, psw: String, timeoutSecond: number): Promise<any>;
+  stopConfig(): void;
 };
 
 const { OneShot } = NativeModules;
